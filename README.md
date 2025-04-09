@@ -1,50 +1,50 @@
-# Welcome to your Expo app 👋
+# User Management Application
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A React Native application for managing users with full CRUD functionality, built with TypeScript and Context API.
 
-## Get started
+## Features
 
-1. Install dependencies
+- **User List**: View all users with pagination
+- **Create Users**: Add new users via modal form
+- **Edit Users**: Modify existing user details
+- **Delete Users**: Remove users from the list
+- **Theme Support**: Light/dark mode toggle
+- **Responsive Design**: Works on mobile and tablet
 
-   ```bash
-   npm install
-   ```
+## Technologies Used
 
-2. Start the app
+- React Native
+- TypeScript
+- Context API (State Management)
+- React Navigation
+- JSONPlaceholder API (Mock backend)
 
-   ```bash
-    npx expo start
-   ```
+## Installation
 
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
+1. Clone the repository
 ```bash
-npm run reset-project
+git clone [repository-url]
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+2. Install dependencies
+```bash
+npm install
+```
 
-## Learn more
+3. Start the development server
+```bash
+npm start
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+## Project Structure
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+```
+src/
+├── app/
+│   ├── components/        # Reusable components
+│   ├── context/           # Context providers
+│   ├── hooks/             # Custom hooks
+│   ├── screens/           # Application screens
+│   ├── types/             # Type definitions
+│   └── App.tsx            # Main application entry
+```

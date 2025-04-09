@@ -52,3 +52,5 @@ src/
 ## Apk file to run
 
 https://drive.google.com/file/d/1Xua4iL0diQGI25tp9sJshHMRY7j7ozMC/view
+## OR
+check Releases Tag

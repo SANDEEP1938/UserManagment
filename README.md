@@ -31,9 +31,9 @@ git clone [repository-url]
 npm install
 ```
 
-3. Start the development server
+3. Start the development server on android
 ```bash
-npm start
+npm run android
 ```
 
 ## Project Structure

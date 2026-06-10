@@ -9,7 +9,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 const Stack = createNativeStackNavigator();
 
 function App() {
-  console.log("gfxgf");
+  console.log("gfxgjbgf");
   return (
     <SafeAreaProvider>
       <ThemeProvider>
